@@ -12,7 +12,7 @@ RUN npm run build
 
 EXPOSE 5000
 
-CMD ["serve", "-s", "dist"]
+CMD ["serve", "-s", "dist", "-p", "3000"]
 
 #WORKDIR /app
 #
